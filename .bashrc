@@ -25,6 +25,7 @@ stty -ixon
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
 alias asource='source $HOME/.bashrc' 
+alias config='/usr/bin/git --git-dir=/home/c/.dotfiles/ --work-tree=/home/c'
 alias ls='ls --color=auto'
 alias m=/home/c/Git/ss/manual.py
 alias mon=/home/c/Bash/core/monitor.sh
@@ -96,4 +97,3 @@ if [[ $PATH != *"Bash"* ]]; then
     #source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
     source /home/c/Go/src/github.com/tomnomnom/gf/gf-completion.bash
 fi
-alias config='/usr/bin/git --git-dir=/home/c/.dotfiles/ --work-tree=/home/c'
