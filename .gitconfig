@@ -5,6 +5,7 @@
   diff = auto
   status = auto
   branch = auto
+  ui = true
 [color "status"]
   added = green
   changed = blue
