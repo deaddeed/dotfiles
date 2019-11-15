@@ -9,6 +9,7 @@ h(){
     mon                 monitor change in specific site
     mpvnv               mpv no video; music player
     py                  python
+    skill               ( ͡° ͜ʖ ͡°)
     torbrowser          Tor Browser
     torchromium         tor proxy in chromium
     ZZ                  exit
