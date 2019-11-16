@@ -50,7 +50,7 @@ prox(){
         ;;
     *)
         echo "[prox][msg] Tor proxy 127.0.0.1:9150"
-        proxy=http://127.0.0.1:9150/
+        proxy=socks5h://127.0.0.1:9150/
         ;;
     esac
     export \
