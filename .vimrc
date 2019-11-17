@@ -149,6 +149,7 @@ vmap <C-s> <esc>:update<CR><CR>gv
 "nmap <S-j> :tabn<CR><CR>
 "nmap <S-k> :tabp<CR><CR>
 
+cnoremap <silent> Q! :qall!<CR>
 
 " Gundo toggle
 "map <F5> <Esc>:GundoToggle<CR>
