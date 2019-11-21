@@ -34,7 +34,7 @@ alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
 alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
     --directory '/media/c/Load/dan/data'"
-alias skill='pkill YACReader > /dev/null && echo "Done!" || echo "Problemo!"'
+alias skill='pkill mcomix > /dev/null && echo "Done!" || echo "Problemo!"'
 alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
     --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" &'
 #alias vimprev=/home/c/Bash/vimprev
