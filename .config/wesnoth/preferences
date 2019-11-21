@@ -1,0 +1,103 @@
+UI_volume=71
+ally_sighted_interrupts=yes
+animate_map=no
+animate_water=yes
+ask_delete=yes
+auto_save_max=10
+bell_volume=71
+chat_lines=6
+chat_timestamp=no
+color_cursors=yes
+damage_prediction_allow_monte_carlo_simulation=yes
+delete_saves=yes
+disable_auto_moves=no
+draw_delay=-1
+editor_draw_hex_coordinates=no
+editor_draw_terrain_codes=no
+enable_planning_mode_on_start=no
+encountered_terrain_list="Aa^Es, Aa^Fda, Aa^Fma, Aa^Fp, Aa^Fpa, Aa^Vaa, Aa^Vca, Aa^Vea, Aa^Vha, Aa^Voa, Aa^Wm, Aa, Ai^Bw\, Ai^Bw|, Ai^Es, Ai, At, Cdr, Ce^Br\, Ce^Ecf, Ce^Edt, Ce^Es, Ce^Ii, Ce^Kov, Ce, Cea, Cer^Br\, Cer, Ch^Ebn, Ch^Ecf, Ch^Fet, Ch, Cha, Chr^Dr, Chr^Eb, Chr^Edb, Chr^Es, Chr^Ii, Chr, Chs^Bw\, Chs^Dr, Chs^Edb, Chs^Edt, Chs^Es, Chs, Chw^Edt, Chw^Es, Chw, Cm, Cme, Co^Es, Co^Kov, Co^Vo, Co, Coa, Ct, Cte^Br/, Cte^Esd, Cte, Cud^Br\, Cud^Dr, Cud^Eb, Cud^Ebn, Cud^Es, Cud^Esd, Cud^Qov, Cud^Wyb, Cud^Xo, Cud, Cv^Fet, Cv, Cvr, Cyd, Dd^Dc, Dd^Do, Dd^Dr, Dd^Ecf, Dd^Edp, Dd^Edpp, Dd^Eff, Dd^Es, Dd^Esd, Dd^Ftd, Dd^Ftp, Dd^Vda, Dd^Vdt, Dd, Ds^Bw\, Ds^Bw|, Ds^Edp, Ds^Efm, Ds^Es, Ds^Esd, Ds^Fms, Ds^Fmw, Ds^Ftd, Ds^Vh, Ds^Vhh, Ds^Vht, Ds, Dt, Ft, Gd^Dr, Gd^Edb, Gd^Edp, Gd^Eff, Gd^Efm, Gd^Em, Gd^Es, Gd^Esd, Gd^Fdf, Gd^Fds, Gd^Fdw, Gd^Fet, Gd^Fetd, Gd^Fmf, Gd^Fms, Gd^Fmw, Gd^Fp, Gd^Ftd, Gd^Gvs, Gd^Vc, Gd^Ve, Gd^Vh, Gd^Vl, Gd^Vo, Gd, Gg^Cov, Gg^Dr, Gg^Ecf, Gg^Edb, Gg^Edt, Gg^Eff, Gg^Efm, Gg^Em, Gg^Emf, Gg^Es, Gg^Esd, Gg^Fdf, Gg^Fds, Gg^Fdw, Gg^Fet, Gg^Fetd, Gg^Fmf, Gg^Fms, Gg^Fmw, Gg^Fnzb, Gg^Fnzt, Gg^Fp, Gg^Gryv, Gg^Gvs, Gg^Kov, Gg^Nhyr, Gg^Qov, Gg^Uf, Gg^Vc, Gg^Vct, Gg^Ve, Gg^Vh, Gg^Vhc, Gg^Vhcr, Gg^Vhh, Gg^Vhr, Gg^Vl, Gg^Vo, Gg^Vov, Gg^Vwm, Gg^Wm, Gg, Gll^Edb, Gll^Edt, Gll^Efm, Gll^Em, Gll^Emf, Gll^Es, Gll^Fdf, Gll^Fds, Gll^Fdw, Gll^Fet, Gll^Fmf, Gll^Fms, Gll^Fmw, Gll^Fp, Gll^Gvs, Gll^Uf, Gll^Vc, Gll^Ve, Gll^Vh, Gll^Vl, Gll^Vo, Gll, Gs^Cov, Gs^Dr, Gs^Ecf, Gs^Edb, Gs^Edp, Gs^Edt, Gs^Eff, Gs^Efm, Gs^Em, Gs^Emf, Gs^Es, Gs^Esd, Gs^Fdf, Gs^Fds, Gs^Fdw, Gs^Fet, Gs^Fmf, Gs^Fms, Gs^Fmw, Gs^Fp, Gs^Fpa, Gs^Ft, Gs^Ftd, Gs^Ftp, Gs^Ftr, Gs^Fync, Gs^Gvs, Gs^Uf, Gs^Vc, Gs^Vct, Gs^Ve, Gs^Vh, Gs^Vhc, Gs^Vhcr, Gs^Vhs, Gs^Vht, Gs^Vl, Gs^Vo, Gs^Vov, Gs^Vud, Gs^Vwm, Gs^Wm, Gs, Gt, Ha^Dr, Ha^Fda, Ha^Fma, Ha^Fp, Ha^Fpa, Ha^Vca, Ha^Vhha, Ha^Vla, Ha^Voa, Ha, Hd^Edp, Hd^Es, Hd, Hh^Cov, Hh^Dr, Hh^Edp, Hh^Eff, Hh^Em, Hh^Emf, Hh^Es, Hh^Fdf, Hh^Fds, Hh^Fdw, Hh^Fet, Hh^Fetd, Hh^Fmf, Hh^Fms, Hh^Fmw, Hh^Fp, Hh^Fpa, Hh^Fync, Hh^Nhyr, Hh^Vc, Hh^Ve, Hh^Vh, Hh^Vhcr, Hh^Vhh, Hh^Vhha, Hh^Vhhr, Hh^Vl, Hh^Vo, Hh^Vud, Hh, Hhd^Dr, Hhd^Es, Hhd^Fdf, Hhd^Fds, Hhd^Fdw, Hhd^Fmf, Hhd^Fms, Hhd^Fmw, Hhd^Fp, Hhd^Fpa, Hhd^Vc, Hhd^Vh, Hhd^Vhh, Hhd^Vo, Hhd^Vu, Hhd, Ht, Icn^Efs, Icn, Ior^Eb, Ior^Ebn, Ior^Es, Ior, Iwr^Pr/, Iwr^Pr/o, Iwr^Pr\, Iwr^Pr\o, Iwr^Pr|, Iwr^_s, Iwr, Ke, Kea, Ket, Kh, Kha, Khr, Khs, Khw, Km, Kme, Ko^Dr, Ko^Vd, Ko, Koa, Kte, Kud, Kv, Kvr, Kyd, Md^Vhh, Md^Xm, Md, Mdd, Mm^Es, Mm^Vc, Mm^Vhcr, Mm^Vhh, Mm^Vo, Mm^Vud, Mm^Xm, Mm, Ms^Dr, Ms^Fpa, Ms^Vaa, Ms^Vca, Ms^Vhha, Ms^Voa, Ms^Xm, Ms, Mt, Ql^Bs/, Ql^Bs\, Ql, Qlf^Ii, Qlf, Qt, Qxe, Qxu^Bcx\, Qxu^Bcx|, Qxu^Bp|, Qxu^Bs\, Qxu^Bw\, Qxu^Wyb, Qxu, Qxua, Rb^Edp, Rb^Edt, Rb^Eff, Rb^Em, Rb^Emf, Rb^Es, Rb^Fds, Rb^Fdw, Rb^Fms, Rb^Fp, Rb^Fync, Rb^Gvs, Rb^Ii, Rb^Uf, Rb^Vc, Rb^Vh, Rb^Vo, Rb^Vud, Rb^Wm, Rb^Wyb, Rb, Rd^Br/, Rd^Br\, Rd^Br|, Rd^Cov, Rd^Dr, Rd^Edb, Rd^Edp, Rd^Edt, Rd^Efm, Rd^Em, Rd^Es, Rd^Fds, Rd^Fdw, Rd^Fp, Rd^Ft, Rd^Ftp, Rd^Gvs, Rd^Ii, Rd^Nhyr, Rd^Qov, Rd^Uf, Rd^Vh, Rd, Re^Br/, Re^Br\, Re^Br|, Re^Ebn, Re^Ecf, Re^Edb, Re^Edt, Re^Eff, Re^Efm, Re^Em, Re^Emf, Re^Es, Re^Fds, Re^Fdw, Re^Fms, Re^Fmw, Re^Fp, Re^Gvs, Re^Ii, Re^Uf, Re^Vct, Re^Ve, Re^Vh, Re^Vhh, Re^Vhhr, Re^Vhs, Re^Vl, Re^Vo, Re^Vu, Re^Vud, Re^Vwm, Re^Xo, Re, Rp^Cov, Rp^Dr, Rp^Edb, Rp^Edt, Rp^Efm, Rp^Es, Rp^Ii, Rp^Vd, Rp^Ve, Rp^Vhc, Rp, Rr^Br/, Rr^Br\, Rr^Br|, Rr^Bw|, Rr^Cov, Rr^Dr, Rr^Eb, Rr^Edb, Rr^Edt, Rr^Em, Rr^Es, Rr^Ii, Rr^Vd, Rr^Ve, Rr^Vhc, Rr^Vo, Rr^Vu, Rr^Vud, Rr^Xo, Rr, Rrc^Es, Rrc^Nhyr, Rrc^Ve, Rrc^Vh, Rrc^Vhc, Rrc^Vhh, Rrc, Rt, Sm^Bw|r, Sm^Dr, Sm^Edt, Sm^Em, Sm^Emf, Sm^Es, Sm^Fdw, Sm^Uf, Sm^Vhs, Sm^Xo, Sm, Ss^Bsb\, Ss^Bsb|, Ss^Bw/, Ss^Bw\, Ss^Bw\r, Ss^Bw|, Ss^Bw|r, Ss^Dr, Ss^Edb, Ss^Edt, Ss^Em, Ss^Emf, Ss^Es, Ss^Ewf, Ss^Ewl, Ss^Fdw, Ss^Fetd, Ss^Fms, Ss^Fmw, Ss^Fp, Ss^Ii, Ss^Uf, Ss^Vhs, Ss^Vht, Ss^Vm, Ss, St, Uft, Uh^Br/, Uh^Br\, Uh^Br|, Uh^Crys, Uh^Dr, Uh^Em, Uh^Emf, Uh^Es, Uh^Ii, Uh^Uf, Uh^Ufi, Uh^Vu, Uh^Vud, Uh^Wyb, Uh, Ur^Br/, Ur^Br\, Ur^Br|, Ur^Dr, Ur^Edb, Ur^Edt, Ur^Em, Ur^Es, Ur^Ii, Ur^Kov, Ur^Qov, Ur^Vud, Ur^Wyb, Ur^Xo, Ur, Urb^Br/, Urb^Br\, Urb^Br|, Urb^Dr, Urb^Edt, Urb^Es, Urb^Gytc, Urb^Gyto, Urb^Ii, Urb^Pr/, Urb^Pr/o, Urb^Pr\, Urb^Pr\o, Urb^Vud, Urb^Xo, Urb, Urc, Ut, Uu^Br/, Uu^Br\, Uu^Br|, Uu^Crys, Uu^Dr, Uu^Ebn, Uu^Edt, Uu^Em, Uu^Emf, Uu^Es, Uu^Esd, Uu^Ii, Uu^Pr\, Uu^Pr\o, Uu^Uf, Uu^Ufi, Uu^Vhs, Uu^Vu, Uu^Vud, Uu^Wyb, Uu^Xo, Uu, Uue^Br\, Uue^Dr, Uue^Edb, Uue^Es, Uue^Ii, Uue^Uf, Uue^Vu, Uue^Vud, Uue^Wyb, Uue, Vt, Vyd, Wdt, Wo^Br/, Wo^Bsb/, Wo^Bsb\, Wo^Bw/, Wo^Bw\, Wo^Bw|, Wo^Es, Wo^Ii, Wo^Vm, Wo, Wog^Bsb/, Wog^Bsb\, Wog^Bw/, Wog^Bw\, Wog^Bw|, Wog^Ii, Wog^Xo, Wog, Wot^Vm, Wot^Vydh, Wot^Vydo, Wot^Zhul, Wot^Zpie, Wot^Zral, Wot^Zrig, Wot^Zrlp, Wot, Wrt, Wst, Ww^Bh\, Ww^Bh|, Ww^Br\, Ww^Bsb/, Ww^Bsb\, Ww^Bsb|, Ww^Bw/, Ww^Bw/r, Ww^Bw\, Ww^Bw|, Ww^Dr, Ww^Es, Ww^Ewf, Ww^Ewl, Ww^Ii, Ww^Vm, Ww^Wyc, Ww^Zdek, Ww^Zfoc, Ww^Zpoo, Ww, Wwf^Bsb/, Wwf^Bw/, Wwf^Bw\, Wwf^Bw|, Wwf^Dr, Wwf^Edb, Wwf^Edt, Wwf^Em, Wwf^Es, Wwf^Ii, Wwf^Vm, Wwf, Wwg^Bh/, Wwg^Bs\, Wwg^Bsb\, Wwg^Bsb|, Wwg^Bs|, Wwg^Bw/, Wwg^Bw\, Wwg^Bw\r, Wwg^Bw|, Wwg^Dr, Wwg^Edb, Wwg^Es, Wwg^Ewf, Wwg^Ewl, Wwg^Ii, Wwg^Xo, Wwg, Wwr, Wwrg, Wwrt, Wwt^Bsb/, Wwt^Bsb\, Wwt^Bsb|, Wwt^Bw/, Wwt^Bw/r, Wwt^Bw\, Wwt^Bw|, Wwt^Es, Wwt^Ewf, Wwt^Vm, Wwt^Zdek, Wwt^Zfoc, Wwt^Zpoo, Wwt, Xoc^Efs, Xoc^_s, Xoc, Xol^Cov, Xol, Xom^Efs, Xom, Xos, Xt, Xu^Efs, Xu^Pysg, Xu, Xuc^Efs, Xuc, Xue, Xv, Zld^Vov, Zld, Zlde, _s^Xo, _s, ^Qov, ^Xos, ^_s"
+encountered_units="Ancient Lich,Ancient Lich SotA,Ancient Wose,Apprentice Mage,Apprentice Necromancer,Arch Mage,Assassin,Bandit,Bandit_Peasant,Banebow,Blood Bat,Blood Bat SotA,Boat,Bone Captain,Bone Knight,Bone Shooter,Bowman,Caravan,Cavalier,Cavalryman,Cave Spider,Chocobone,Crab Man,Cuttle Fish,Dark Adept,Dark Adept DiD,Dark Adept SotA,Dark Assassin1,Dark Mage,Dark Sorcerer,Dark Sorcerer DiD,Dark Sorcerer SotA,Death Knight,Death Squire,Deathblade,Delinquent,Direwolf Rider,Divine Avatar,Dragoon,Drake Arbiter,Drake Blademaster,Drake Burner,Drake Clasher,Drake Enforcer,Drake Fighter,Drake Flameheart,Drake Flare,Drake Glider,Drake Thrasher,Drake Warden,Drake Warrior,Draug,Dread Bat,Duelist,Dummy,Dunefolk,Dwarvish Annalist,Dwarvish Berserker,Dwarvish Dragonguard,Dwarvish Explorer,Dwarvish Fighter,Dwarvish Guardsman,Dwarvish Lord,Dwarvish Loremaster,Dwarvish Masked Fighter,Dwarvish Masked Guardsman,Dwarvish Masked Lord,Dwarvish Masked Stalwart,Dwarvish Masked Steelclad,Dwarvish Masked Thunderer,Dwarvish Masked Thunderguard,Dwarvish Miner,Dwarvish Pathfinder,Dwarvish Rune Lord,Dwarvish Runemaster,Dwarvish Runesmith,Dwarvish Scout,Dwarvish Sentinel,Dwarvish Stalwart,Dwarvish Steelclad,Dwarvish Thunderer,Dwarvish Thunderguard,Dwarvish Ulfserker,Dwarvish Witness,EGhost,EShadow,EWraith,Elder Mage,Elder Wose,Elvish Archer,Elvish Avenger,Elvish Captain,Elvish Champion,Elvish Druid,Elvish Enchantress,Elvish Fighter,Elvish Hero,Elvish High Lord,Elvish Lord,Elvish Marksman,Elvish Marshal,Elvish Outrider,Elvish Ranger,Elvish Rider,Elvish Scout,Elvish Shaman,Elvish Sharpshooter,Elvish Shyde,Elvish Sorceress,Elvish Sylph,Fencer,Fighter,Fighteress,Fire Dragon,Fire Drake,Flesh Golem,Footpad,Footpad_Peasant,Frontier Baroness,Fugitive,Galleon,General,Ghast,Ghost,Ghoul,Giant Ant,Giant Mudcrawler,Giant Rat,Giant Scorpion,Giant Spider,Goblin Impaler,Goblin Knight,Goblin Pillager,Goblin Rouser,Goblin Spearman,Grand Knight,Grand Marshal,Great Mage,Great Troll,Gryphon,Gryphon Master,Gryphon Rider,Halberdier,Haldric II,Heavy Infantryman,Highwayman,Highwayman_Peasant,Horse Lord,Horseman,Human Commander,Huntsman,Huntsman_Peasant,Hurricane Drake,Inferno Drake,Iron Mauler,Javelineer,Journeyman Mage,King of Wesnoth,Knight,Lancer,Lich,Lich Lord,Lich SotA,Lieutenant,Longbowman,Mage,Mage Commander,Mage Leader,Mage Magister,Mage of Light,Master Bowman,Mermaid Diviner,Mermaid Enchantress,Mermaid Initiate,Mermaid Priestess,Merman Entangler,Merman Fighter,Merman Hoplite,Merman Hunter,Merman Netcaster,Merman Spearman,Merman Triton,Merman Warrior,Mounted Fighter,Mounted Warrior,Naga Fighter,Naga Guardian,Naga Hunter,Naga Myrmidon,Naga Warden,Naga Warrior,Necromancer,Necromancer SotA,Necrophage,Nightgaunt,Noble,Novice Orcish Shaman,Ogre,Old Orcish Shaman,Orcish Archer,Orcish Assassin,Orcish Crossbowman,Orcish Grunt,Orcish Leader,Orcish Nightblade,Orcish Ruler,Orcish Shaman,Orcish Slayer,Orcish Slurbow,Orcish Sovereign,Orcish Warlord,Orcish Warrior,Outlaw,Outlaw_Peasant,Paladin,Peasant,Pikeman,Poacher,Poacher_Peasant,Quenoth Archer,Quenoth Champion,Quenoth Druid,Quenoth Fighter,Quenoth Fighter1,Quenoth Fighter2,Quenoth Fighter3,Quenoth Fighter5,Quenoth Fighter6,Quenoth Fighter8,Quenoth Flanker,Quenoth Marksman,Quenoth Mystic,Quenoth Mystic1,Quenoth Mystic2,Quenoth Mystic3,Quenoth Mystic5,Quenoth Mystic6,Quenoth Mystic8,Quenoth Outrider,Quenoth Pathfinder,Quenoth Ranger,Quenoth Scout,Quenoth Scout1,Quenoth Scout2,Quenoth Scout3,Quenoth Scout5,Quenoth Scout6,Quenoth Scout8,Quenoth Shaman,Quenoth Shyde,Quenoth Sun Singer,Quenoth Sun Sylph,Quenoth Warrior,Quenoth Youth,Quenoth Youth 2,Quenoth Youth 3,Quintain,Ranger,Red Mage,Revenant,Rogue,Rogue Mage,Royal Guard,Ruffian,Ruffian SotA,Sacrifice,Sailor,Saurian Ambusher,Saurian Augur,Saurian Flanker,Saurian Oracle,Saurian Skirmisher,Saurian Soothsayer,Sea Captain,Sea Serpent,Sergeant,Shadow,Shadow Lord,Shadow Mage,Shock Trooper,Silver Mage,Skeletal Dragon,Skeleton,Skeleton Archer,Skeleton Rider,Skeleton SotA,Sky Drake,Small Mudcrawler,Soulless,Spearman,Spectre,Swordsman,Tauroch Protector,Tauroch Rider,Tauroch Rider1,Tauroch Rider2,Tauroch Rider3,Tauroch Rider5,Tauroch Rider6,Tauroch Rider8,Tauroch Stalwart,Tauroch Vanguard,Tentacle of the Deep,Thief,Thug,Thug_Peasant,Transport Galleon,Trapper,Trapper_Peasant,Troll,Troll Hero,Troll Rocklobber,Troll Shaman,Troll Warrior,Troll Whelp,Undead Dwarvish Rune Lord,Vampire Bat,Vampire Bat SotA,Walking Corpse,Walking Corpse Shynal,Water Serpent,White Mage,Wolf,Wolf Rider,Woodsman,Wose,Wose Shaman,Wraith,Yeti,Young Ogre"
+floating_labels=yes
+grid=no
+hide_whiteboard=no
+idle_anim=yes
+idle_anim_rate=-36
+lobby_whisper_friends_only=no
+minimap_draw_terrain=yes
+minimap_draw_units=yes
+minimap_draw_villages=yes
+minimap_movement_coding=yes
+minimap_terrain_coding=yes
+music_volume=40
+remember_password=no
+save_replays=yes
+scroll=50
+scroll_threshold=10
+show_haloes=yes
+show_side_colors=no
+skip_ai_moves=no
+sound_volume=71
+sp_modifications=""
+stop_music_in_background=no
+turbo=yes
+turbo_speed=2
+turn_dialog=no
+unit_standing_animations=yes
+xresolution=1366
+yresolution=768
+[completed_campaigns]
+	[campaign]
+		difficulty_levels="NORMAL"
+		name=""
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="An_Orcish_Incursion"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Delfadors_Memoirs"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Descent_into_Darkness"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Eastern_Invasion"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="LOW"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Liberty"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Northern_Rebirth"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Sceptre_of_Fire"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Secrets of the Ancients"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Son_of_the_Black-Eye"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="The_Hammer_of_Thursagan"
+	[/campaign]
+	[campaign]
+		difficulty_levels="HARD"
+		name="Two_Brothers"
+	[/campaign]
+[/completed_campaigns]
+[history]
+[/history]
