@@ -91,9 +91,8 @@ gin(){
 
 #export GOPATH=$HOME/Go
 
-if [[ $PATH != *"Bash"* ]]; then
-    export PATH="$PATH:$HOME/Bash/bin"
-    export PATH="$PATH:$HOME/Python/bin"
+if [[ $PATH != */S/* ]]; then
+    export PATH="$PATH:$HOME/S/bin"
     export PATH="$PATH:$HOME/Go/bin"
     #source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
     source /home/c/Go/src/github.com/tomnomnom/gf/gf-completion.bash
