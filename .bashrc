@@ -26,10 +26,10 @@ stty -ixon
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
 alias asource='source $HOME/.bashrc' 
-alias config='/usr/bin/git --git-dir=/home/c/.dotfiles/ --work-tree=/home/c'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
-alias m=/home/c/Git/ss/manual.py
-alias mon=/home/c/Bash/core/monitor.sh
+alias m=$HOME/Git/ss/manual.py
+alias mon=$HOME/Bash/core/monitor.sh
 alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
 alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
@@ -37,7 +37,7 @@ alias server="python -m http.server 8000 --bind 127.0.0.1 \
 alias skill='pkill mcomix > /dev/null && echo "Done!" || echo "Problemo!"'
 alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
     --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" &'
-#alias vimprev=/home/c/Bash/vimprev
+#alias vimprev=$HOME/Bash/vimprev
 alias vimprev="VIMENV=prev vim $@"
 alias ZZ=exit
 
@@ -72,7 +72,7 @@ torbrowser(){
 
 g(){
     if sudo true; then
-        sudo -g oknet /home/c/Bash/gallery_dl.sh $1
+        sudo -g oknet $HOME/Bash/gallery_dl.sh $1
     fi
 }
 gin(){
@@ -82,7 +82,7 @@ gin(){
     done
     if ! pgrep -f gallery_dl.sh > /dev/null; then
         if sudo true; then
-            sudo -g oknet /home/c/Bash/gallery_dl.sh
+            sudo -g oknet $HOME/Bash/gallery_dl.sh
         fi
     else
         echo "[bashrc][gin][msg] gallery_dl.sh already running"
@@ -95,5 +95,5 @@ if [[ $PATH != */S/* ]]; then
     export PATH="$PATH:$HOME/S/bin"
     export PATH="$PATH:$HOME/Go/bin"
     #source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
-    source /home/c/Go/src/github.com/tomnomnom/gf/gf-completion.bash
+    source $HOME/Go/src/github.com/tomnomnom/gf/gf-completion.bash
 fi
