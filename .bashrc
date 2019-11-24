@@ -35,6 +35,7 @@ alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
     --directory '/media/c/Load/dan/data'"
 alias skill='pkill mcomix > /dev/null && echo "Done!" || echo "Problemo!"'
+alias sublist3r=$HOME/Git/Sublist3r/sublist3r.py
 alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
     --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" &'
 #alias vimprev=$HOME/Bash/vimprev
