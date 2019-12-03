@@ -25,6 +25,7 @@ stty -ixon
 # Bash prompt ori PS1='[\u@\h \W]\$ '
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
+alias altwin="setxkbmap -option 'altwin:swap_alt_win'"
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
