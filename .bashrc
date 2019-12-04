@@ -28,6 +28,7 @@ PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 alias altwin="setxkbmap -option 'altwin:swap_alt_win'"
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
 alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
 alias mon=$HOME/Bash/core/monitor.sh
