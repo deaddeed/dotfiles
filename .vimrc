@@ -221,6 +221,9 @@ if $VIMENV == 'prev'
   set noswapfile
 endif
 
+if $VIMENV == 'wrap'
+    set wrap
+endif
 
 " set the interactive flag so bash functions are sourced from ~/.bashrc etc
 "set shellcmdflag=-ci
