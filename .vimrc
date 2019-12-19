@@ -19,6 +19,9 @@ if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     "Plug 'fatih/vim-go'
     "Plug 'rust-lang/rust.vim'
+    " To get every commands and parameters -> :h Zim
+    " To get a list of your notes -> :ZimList
+    set rtp+=/media/c/Adisc/vim-zim
 endif
 
 call plug#end()
@@ -32,8 +35,9 @@ let g:airline_theme='powerlineish'
 " Neovim Config
 if has('nvim')
     let g:deoplete#enable_at_startup = 1
-    command! w!! w suda://%
-    command! E e suda://%
+    " command! w!! w suda://%
+    ca w!! w suda://%
+    ca E e suda://%
 else
     " :w !sudo tee % #% refer to the current file
     ca w!! w !sudo tee >/dev/null '%'
