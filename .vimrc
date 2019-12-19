@@ -217,6 +217,11 @@ if $VIMENV == 'prev'
     set noswapfile
 elseif $VIMENV == 'wrap'
     set wrap
+elseif $VIMENV == 'zim'
+    let g:zim_wiki_lang='en'
+    let g:zim_notebooks_dir='/media/c/Adisc/H'
+    let g:zim_notebook='/media/c/Adisc/H'
+    echom "finally!"
 endif
 
 " set the interactive flag so bash functions are sourced from ~/.bashrc etc
