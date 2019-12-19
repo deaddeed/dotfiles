@@ -131,6 +131,10 @@ au BufNewFile,BufRead *.js,*.html,*.css
     \ setlocal softtabstop=2 |
     \ setlocal shiftwidth=2
 
+" Trans background
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+
 " auto reload vimrc
 au! Bufwritepost .vimrc source %
 "set clipboard=unnamed
@@ -207,25 +211,11 @@ set nofoldenable
 " Open word under cursor as ctag in new tab
 "map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
-if $VIMENV == 'talk'
-  set background=light
-  let g:solarized_termcolors=256
-  colo solarized
-  noremap <Space> :n<CR>
-  noremap <Backspace> :N<CR>
-else
-  " Trans background
-  hi Normal ctermbg=none
-  hi NonText ctermbg=none
-endif
-
 if $VIMENV == 'prev'
-  noremap <Space> :n<CR>
-  noremap <Backspace> :N<CR>
-  set noswapfile
-endif
-
-if $VIMENV == 'wrap'
+    noremap <Space> :n<CR>
+    noremap <Backspace> :N<CR>
+    set noswapfile
+elseif $VIMENV == 'wrap'
     set wrap
 endif
 
