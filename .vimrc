@@ -127,15 +127,15 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.sh,*.vim match BadWhitespace /\s\+$/
 
 " Full stack development:
 au BufNewFile,BufRead *.js,*.html,*.css,*.vim
-    \ setlocal tabstop=2 |
-    \ setlocal softtabstop=2 |
-    \ setlocal shiftwidth=2
-    \ set directory=$vimtmp |
-    \ set backupdir=$vimtmp |
-    \ set undodir=$vimtmp |
-    \ set backup |
-    \ set swapfile |
-    \ set undofile
+            \ setlocal tabstop=2
+            \ softtabstop=2
+            \ shiftwidth=2
+            \ directory=$vimtmp
+            \ backupdir=$vimtmp
+            \ undodir=$vimtmp
+            \ backup
+            \ swapfile
+            \ undofile
 
 " Trans background
 hi Normal ctermbg=none
