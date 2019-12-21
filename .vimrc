@@ -19,9 +19,7 @@ if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     "Plug 'fatih/vim-go'
     "Plug 'rust-lang/rust.vim'
-    " To get every commands and parameters -> :h Zim
-    " To get a list of your notes -> :ZimList
-    set rtp+=/media/c/Adisc/vim-zim
+    set rtp+=/media/c/Adisc/vimark
 endif
 
 call plug#end()
@@ -81,6 +79,10 @@ set backspace=2
 " Make backspace a bit nicer
 set backspace=indent,eol,start
 
+" Standard
+set textwidth=79
+set fileformat=unix
+
 " Indentation
 set shiftwidth=4
 set tabstop=4
@@ -112,8 +114,6 @@ endif
 
 " PEP8 indentation and overwrite default
 au BufNewFile,BufRead *.py,*.sh
-    \ set textwidth=79 |
-    \ set fileformat=unix |
     \ set directory=$vimtmp |
     \ set backupdir=$vimtmp |
     \ set undodir=$vimtmp |
@@ -123,13 +123,19 @@ au BufNewFile,BufRead *.py,*.sh
 
 highlight BadWhitespace ctermbg=red guibg=red
 " Mark whitespace in RED
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.sh match BadWhitespace /\s\+$/
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.sh,*.vim match BadWhitespace /\s\+$/
 
 " Full stack development:
-au BufNewFile,BufRead *.js,*.html,*.css
+au BufNewFile,BufRead *.js,*.html,*.css,*.vim
     \ setlocal tabstop=2 |
     \ setlocal softtabstop=2 |
     \ setlocal shiftwidth=2
+    \ set directory=$vimtmp |
+    \ set backupdir=$vimtmp |
+    \ set undodir=$vimtmp |
+    \ set backup |
+    \ set swapfile |
+    \ set undofile
 
 " Trans background
 hi Normal ctermbg=none
@@ -217,11 +223,6 @@ if $VIMENV == 'prev'
     set noswapfile
 elseif $VIMENV == 'wrap'
     set wrap
-elseif $VIMENV == 'zim'
-    let g:zim_wiki_lang='en'
-    let g:zim_notebooks_dir='/media/c/Adisc/H'
-    let g:zim_notebook='/media/c/Adisc/H'
-    echom "finally!"
 endif
 
 " set the interactive flag so bash functions are sourced from ~/.bashrc etc
