@@ -33,6 +33,7 @@ alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
 alias mon=$HOME/Bash/core/monitor.sh
 alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
+alias vimark="cd /media/c/Adisc/H; nvim Home.md"
 alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
     --directory '/media/c/Load/dan/data'"
