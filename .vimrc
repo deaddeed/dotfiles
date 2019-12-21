@@ -19,7 +19,7 @@ if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     "Plug 'fatih/vim-go'
     "Plug 'rust-lang/rust.vim'
-    set rtp+=/media/c/Adisc/vimark
+    set rtp+=/media/c/Adisc/nimark
 endif
 
 call plug#end()
@@ -192,7 +192,7 @@ nnoremap <Leader>o <Esc>:tabe
 nnoremap <Leader>h gT
 nnoremap <Leader>l gt
 nnoremap <Leader>m :setlocal relativenumber!<CR>
-nnoremap <Leader>n :call TmpNum()<CR>
+nnoremap <Leader>nn :call TmpNum()<CR>
 
 function! TmpNum()
     setlocal relativenumber
