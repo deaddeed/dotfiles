@@ -148,7 +148,7 @@ au! Bufwritepost .vimrc source %
 "vnoremap <silent> y y:! echo <C-r>" \| clipster -c<CR><CR>gv
 "vnoremap <silent> y y:<C-r>" w !xclip -i -sel c<CR><CR>
 vnoremap <silent> y "+y
-nnoremap <silent> yy <S-v>"+y<Esc>
+nnoremap <silent> yy 0v$h"+y
 "nnoremap <silent> <S-y> :w !xclip -i -sel c<CR><CR>
 "inoremap <silent> <C-v> <Esc>"+pa
 inoremap <silent> <C-v> <Esc><S-C-v>a
