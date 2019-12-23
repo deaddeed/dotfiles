@@ -45,7 +45,7 @@ alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
 alias vimprev="VIMENV=prev vim $@"
 alias ZZ=exit
 
-mapkey(){
+keymap(){
     setxkbmap \
         -option \
         -option altwin:swap_alt_win \
