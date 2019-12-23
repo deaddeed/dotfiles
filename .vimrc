@@ -181,11 +181,6 @@ nnoremap <silent> j gj
 "nnoremap <silent> <Down> gj
 "inoremap <silent> <Up> <C-c>gka
 "inoremap <silent> <Down> <C-c>gja
-"set noesckeys
-"inoremap <esc> <nop>
-" inoremap jk <esc>
-inoremap kj <C-C>
-inoremap jk <C-C>
 
 map <Space> <Leader>
 nnoremap <Leader>o <Esc>:tabe 
