@@ -25,7 +25,7 @@ stty -ixon
 # Bash prompt ori PS1='[\u@\h \W]\$ '
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
-alias altwin="setxkbmap -option 'altwin:swap_alt_win'"
+
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
@@ -33,7 +33,7 @@ alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
 alias mon=$HOME/Bash/core/monitor.sh
 alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
-alias vimark="cd /media/c/Adisc/H; nvim Home.md"
+alias nimark="cd /media/c/Adisc/H; nvim Home.md"
 alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
     --directory '/media/c/Load/dan/data'"
@@ -44,6 +44,16 @@ alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
 #alias vimprev=$HOME/Bash/vimprev
 alias vimprev="VIMENV=prev vim $@"
 alias ZZ=exit
+
+mapkey(){
+    setxkbmap \
+        -option \
+        -option altwin:swap_alt_win \
+        -option caps:none \
+        -option caps:ctrl_modifier \
+        -option shift:both_capslock_cancel
+    xmodmap -e 'keycode 0x42 = Escape' -e 'keycode 0x69 = Caps_Lock'
+}
 
 #todo: put this in bash script
 prox(){
