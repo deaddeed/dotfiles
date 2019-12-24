@@ -25,9 +25,9 @@ stty -ixon
 # Bash prompt ori PS1='[\u@\h \W]\$ '
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
-
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias g=$HOME/Bash/gallery_dl.sh
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
 alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
@@ -81,25 +81,6 @@ prox(){
 torbrowser(){
     if sudo true; then
         sudo -g oknet /media/c/Adisc/tor-browser_en-US/Browser/start-tor-browser &
-    fi
-}
-
-g(){
-    if sudo true; then
-        sudo -g oknet $HOME/Bash/gallery_dl.sh $1
-    fi
-}
-gin(){
-    for line in $(cat $1)
-    do
-        printf "%s\n" $line > $HOME/.config/gallery-dl/.stdinpipe &
-    done
-    if ! pgrep -f gallery_dl.sh > /dev/null; then
-        if sudo true; then
-            sudo -g oknet $HOME/Bash/gallery_dl.sh
-        fi
-    else
-        echo "[bashrc][gin][msg] gallery_dl.sh already running"
     fi
 }
 
