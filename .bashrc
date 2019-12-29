@@ -86,8 +86,8 @@ torbrowser(){
 
 #export GOPATH=$HOME/Go
 
-if [[ $PATH != */S/* ]]; then
-    export PATH="$PATH:$HOME/S/bin"
+if [[ $PATH != */Scripts/* ]]; then
+    export PATH="$PATH:$HOME/Scripts/bin"
     export PATH="$PATH:$HOME/Go/bin"
     #source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
     source $HOME/Go/src/github.com/tomnomnom/gf/gf-completion.bash
