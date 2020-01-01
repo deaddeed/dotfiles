@@ -4,4 +4,4 @@ syn match markdownIgnore '[^* ]\*'
 "syn match markdownItalic '_'
 "syn match markdownItalicDelimiter ' '
 syn match markdownBold '\*{2}'
-syn match markdownBoldDelimiter ' "
+syn match markdownBoldDelimiter ' '
