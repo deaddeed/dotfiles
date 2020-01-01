@@ -1,8 +1,3 @@
-#[user]
-#  user = deaddeed
-#  name = deaddeed
-#  email = fahmi1001+1@gmail.com
-
 [include]
   path = ~/.config/root/dotfiles.conf
 
