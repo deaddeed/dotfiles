@@ -1,6 +1,8 @@
 set encoding=utf-8
 set nocompatible
 
+map <Space> <Leader>
+
 " PlugUpdate  	Install or update plugins
 " PlugClean[!] 	Remove unlisted plugins (bang version will clean without prompt)
 " PlugUpgrade 	Upgrade vim-plug itself
@@ -182,11 +184,10 @@ nnoremap <silent> j gj
 "inoremap <silent> <Up> <C-c>gka
 "inoremap <silent> <Down> <C-c>gja
 
-map <Space> <Leader>
 nnoremap <Leader>o <Esc>:tabe 
 nnoremap <Leader>h gT
 nnoremap <Leader>l gt
-nnoremap <Leader>m :setlocal relativenumber!<CR>
+nnoremap <Leader>m :setlocal nu!<CR>
 nnoremap <Leader>nn :call TmpNum()<CR>
 
 function! TmpNum()
@@ -216,6 +217,8 @@ if $VIMENV == 'prev'
     noremap <Space> :n<CR>
     noremap <Backspace> :N<CR>
     set noswapfile
+elseif $VIMENV == 'nimark'
+    set nonu
 elseif $VIMENV == 'wrap'
     set wrap
 endif
