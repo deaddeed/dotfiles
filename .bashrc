@@ -27,6 +27,7 @@ PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dan='termite -e $HOME/Python/dan_client.py & $HOME/Python/dan_server.py'
 alias g=$HOME/Bash/gallery_dl.sh
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
 alias ls='ls --color=auto'
@@ -49,10 +50,12 @@ keymap(){
     setxkbmap \
         -option \
         -option altwin:swap_alt_win \
-        -option caps:none \
-        -option caps:ctrl_modifier \
-        -option shift:both_capslock_cancel
-    xmodmap -e 'keycode 0x42 = Escape' -e 'keycode 0x69 = Caps_Lock'
+
+    xmodmap \
+        -e 'clear Lock' \
+        -e 'keycode 66 = Escape' \
+        -e 'add mod3 = Escape' \
+        -e 'keycode 0x69 = Caps_Lock'
 }
 
 #todo: put this in bash script
