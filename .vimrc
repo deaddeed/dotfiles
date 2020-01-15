@@ -147,25 +147,16 @@ hi NonText ctermbg=none
 au! Bufwritepost .vimrc source %
 "set clipboard=unnamed
 "set clipboard=unnamedplus
-"vnoremap <silent> y y:! echo <C-r>" \| clipster -c<CR><CR>gv
-"vnoremap <silent> y y:<C-r>" w !xclip -i -sel c<CR><CR>
+" Use <S-y> for yank only into buffer, not clipboard
 vnoremap <silent> y "+y
 nnoremap <silent> yy 0v$h"+y
-"nnoremap <silent> <S-y> :w !xclip -i -sel c<CR><CR>
-"inoremap <silent> <C-v> <Esc>"+pa
 inoremap <silent> <C-v> <Esc><S-C-v>a
-"inoremap <silent> <C-v> :w !xclip -o -selection clipboard 
 " Save = :w = :update => Ctrl+s in normal, insert & visual
 nmap <C-s> :update<CR><CR>
 imap <C-s> <esc>:update<CR><CR>a
 vmap <C-s> <esc>:update<CR><CR>gv
-" stty -ixon in bash_profile, Ctrl-q if stuck
-" nmap"+pappnmanmannmapnmanmappnmanmanmapppnmapnmap
-" Tab movement " nunmap <S-k>
-"nmap <S-j> :tabn<CR><CR>
-"nmap <S-k> :tabp<CR><CR>
 
-cnoremap <silent> Q! :qall!<CR>
+" stty -ixon in bash_profile, Ctrl-q if stuck
 
 " Gundo toggle
 "map <F5> <Esc>:GundoToggle<CR>
@@ -185,8 +176,10 @@ nnoremap <silent> j gj
 "inoremap <silent> <Down> <C-c>gja
 
 nnoremap <Leader>o <Esc>:tabe 
-nnoremap <Leader>h gT
-nnoremap <Leader>l gt
+cnoremap <silent> Q! :qall!<CR>
+noremap <C-w> <Esc>:wq!<CR>
+"nnoremap <Leader>h gT
+"nnoremap <Leader>l gt
 nnoremap <Leader>m :setlocal nu!<CR>
 nnoremap <Leader>nn :call TmpNum()<CR>
 
@@ -210,8 +203,6 @@ set wildmenu
 " folding
 set nofoldenable
 
-" Open word under cursor as ctag in new tab
-"map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
 if $VIMENV == 'prev'
     noremap <Space> :n<CR>
@@ -225,4 +216,3 @@ endif
 
 " set the interactive flag so bash functions are sourced from ~/.bashrc etc
 "set shellcmdflag=-ci
-
