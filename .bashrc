@@ -29,12 +29,12 @@ alias asource='source $HOME/.bashrc'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dan='termite -e $HOME/Python/dan_client.py & $HOME/Python/dan_server.py'
 alias g=$HOME/Bash/gallery_dl.sh
+alias j="cd /media/c/Adisc/H; VIMENV=j nvim Home.md"
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
 alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
 alias mon=$HOME/Bash/core/monitor.sh
 alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
-alias nimark="cd /media/c/Adisc/H; VIMENV=nimark nvim Home.md"
 alias py=python
 alias server="python -m http.server 8000 --bind 127.0.0.1 \
     --directory '/media/c/Load/dan/data'"
