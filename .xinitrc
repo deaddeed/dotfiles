@@ -21,3 +21,4 @@ xmodmap \
 exec i3
 
 /usr/local/bin/hotplug_monitor.sh &
+/home/c/Bash/monitor_temp.sh &
