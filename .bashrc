@@ -29,7 +29,7 @@ alias asource='source $HOME/.bashrc'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dan='termite -e $HOME/Python/dan_client.py & $HOME/Python/dan_server.py'
 alias g=$HOME/Bash/gallery_dl.sh
-alias j="cd /media/c/Adisc/H; VIMENV=j nvim Home.md"
+alias j="$HOME/Bash/jgnupg.sh"
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
 alias ls='ls --color=auto'
 alias m=$HOME/Git/ss/manual.py
