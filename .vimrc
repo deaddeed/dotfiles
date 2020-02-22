@@ -21,7 +21,7 @@ if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     "Plug 'fatih/vim-go'
     "Plug 'rust-lang/rust.vim'
-    set rtp+=/media/c/Adisc/nimark
+    set rtp+=/media/c/Adisc/j
 endif
 
 call plug#end()
@@ -181,7 +181,7 @@ noremap <C-w> <Esc>:wq!<CR>
 "nnoremap <Leader>h gT
 "nnoremap <Leader>l gt
 nnoremap <Leader>m :setlocal nu!<CR>
-nnoremap <Leader>nn :call TmpNum()<CR>
+nnoremap <Leader>n :call TmpNum()<CR>
 
 function! TmpNum()
     setlocal relativenumber
@@ -208,7 +208,7 @@ if $VIMENV == 'prev'
     noremap <Space> :n<CR>
     noremap <Backspace> :N<CR>
     set noswapfile
-elseif $VIMENV == 'nimark'
+elseif $VIMENV == 'j'
     set nonu
 elseif $VIMENV == 'wrap'
     set wrap
