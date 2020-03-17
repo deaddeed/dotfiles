@@ -44,6 +44,21 @@ else
     set cryptmethod=blowfish2
 endif
 
+
+" Neovim only function
+function! OnTabEnter(path)
+  if isdirectory(a:path)
+    let dirname = a:path
+  else
+    let dirname = fnamemodify(a:path, ":h")
+  endif
+  execute "tcd ". dirname
+endfunction()
+
+if has('nvim')
+    autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
+endif
+
 " Highlighting
 syntax on
 
@@ -115,7 +130,7 @@ if !isdirectory('/media/c/Adisc/Vim/tmp')
 endif
 
 " PEP8 indentation and overwrite default
-au BufNewFile,BufRead *.py,*.sh
+au BufNewFile,BufRead *.py,*.sh,*.go
     \ set directory=$vimtmp |
     \ set backupdir=$vimtmp |
     \ set undodir=$vimtmp |
@@ -125,7 +140,7 @@ au BufNewFile,BufRead *.py,*.sh
 
 highlight BadWhitespace ctermbg=red guibg=red
 " Mark whitespace in RED
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.sh,*.vim match BadWhitespace /\s\+$/
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.sh,*.vim,*.go match BadWhitespace /\s\+$/
 
 " Full stack development:
 au BufNewFile,BufRead *.js,*.html,*.css,*.vim
