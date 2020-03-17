@@ -27,7 +27,7 @@ PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
 alias asource='source $HOME/.bashrc' 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias dan='termite -e $HOME/Python/dan_client.py & $HOME/Python/dan_server.py'
+
 alias g=$HOME/Bash/gallery_dl.sh
 alias j="$HOME/Bash/jgnupg.sh"
 alias linkfinder=$HOME/Git/LinkFinder/linkfinder.py
@@ -36,8 +36,8 @@ alias m=$HOME/Git/ss/manual.py
 alias mon=$HOME/Bash/core/monitor.sh
 alias mpvnv="mpv --no-video --volume=50 --profile=pseudo-gui --keep-open &"
 alias py=python
-alias server="python -m http.server 8000 --bind 127.0.0.1 \
-    --directory '/media/c/Load/dan/data'"
+alias s="rsync -avh /tmp/san/san.db /media/c/HP/san/db/san.db"
+alias san=$HOME/Bash/san.sh
 alias skill='pkill mcomix > /dev/null && echo "Done!" || echo "Problemo!"'
 alias sublist3r=$HOME/Git/Sublist3r/sublist3r.py
 alias torchromium='chromium --proxy-server="socks5://127.0.0.1:9150" \
