@@ -25,7 +25,7 @@ stty -ixon
 # Bash prompt ori PS1='[\u@\h \W]\$ '
 PS1='\[\033[01;36m\][\u@\h \W]\[\033[00m\]\$ '
 
-alias asource='source $HOME/.bashrc' 
+alias asource='source $HOME/.bashrc'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias g=$HOME/Bash/gallery_dl.sh
@@ -67,6 +67,10 @@ keymap(){
 #todo: put this in bash script
 prox(){
     case $1 in
+    2)
+        echo "[prox][msg] Tor socks5 instead of socks5h at 127.0.0.1:9150"
+        proxy=socks5://127.0.0.1:9150/
+        ;;
     1)
         echo "[prox][msg] Running via proid on 192.168.43.1:9880"
         proxy=http://192.168.43.1:9880/
