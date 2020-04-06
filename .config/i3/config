@@ -185,6 +185,8 @@ bar {
     modifier $mod
 }
 
+default_border pixel 0
+hide_edge_borders both
 # use window title, but no border
 bindsym $mod+t border normal 0
 # use no window title and a thick border
